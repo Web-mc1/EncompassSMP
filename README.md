@@ -30,7 +30,7 @@ EncompassSMP combines scripted storytelling with free-range survival gameplay. W
   <li>Survival gameplay</li>
   <li>Community events</li>
   <li>Freedom to build and explore</li>
-  <li>Custom server content</li>
+  <li>Custom server contents</li>
 </ul>
 
 <h2>Join the Story</h2>
