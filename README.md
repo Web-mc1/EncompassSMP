@@ -1,3 +1,9 @@
+<style>
+  body {
+    background-color: #0f0f0f;
+    color: white;
+  }
+</style>
 <h1>
   <h1>
     <img src="638959883704283610 (1).webp" width="100" alt="EncompassSMP Logo">
