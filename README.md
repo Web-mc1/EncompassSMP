@@ -38,6 +38,3 @@ EncompassSMP combines scripted storytelling with free-range survival gameplay. W
 <p>
 Discordlink
 </p>
-
-
-<a href="https://imageresizer.com/bulk-resize" target="_blank">Bulk Image Resizer</a>
