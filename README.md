@@ -4,7 +4,7 @@
 </h1>
 
 <p>
-A Minecraft scripted server with plenty of freedom, allowing players to create their own stories while taking part in larger server events and lore.
+A Minecraft scripted server with plenty of freedom, allowing players to create their own stories while taking part in larger server scripted events and lore.
 </p>
 
 <h2>About</h2>
