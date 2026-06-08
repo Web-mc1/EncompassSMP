@@ -36,5 +36,5 @@ EncompassSMP combines scripted storytelling with free-range survival gameplay. W
 <h2>Join the Story</h2>
 
 <p>
-Whether you want to become a legendary builder, a powerful ruler, a wandering explorer, or a key part of the server's lore, EncompassSMP gives you the freedom to create your own path.
+Discordlink
 </p>
