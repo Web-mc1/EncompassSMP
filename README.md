@@ -39,5 +39,5 @@ EncompassSMP combines scripted storytelling with free-range survival gameplay. W
 <h2>Join the Story</h2>
 
 <p>
-Discordlink
+[Discordlink](https://discord.gg/E6eVQ9sy9t)
 </p>
