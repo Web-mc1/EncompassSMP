@@ -1,6 +1,6 @@
 <h1>
   <h1>
-    <img src="638959883704283610 (1).jpg >
+    <img src="638959883704283610 (1).webp" width="140" alt="EncompassSMP Logo">
 
 </h1>
   
