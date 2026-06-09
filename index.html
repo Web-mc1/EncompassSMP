@@ -1,64 +1,215 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>EncompassSMP</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EncompassSMP</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background:
+        linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
+        url("monsterbattlearena.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.logo {
+    width: 90px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-top: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+}
+
+.discord-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 30px;
+    background: #5865F2;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.discord-btn:hover {
+    transform: scale(1.05);
+}
+
+.section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 30px;
+}
+
+.card {
+    background: rgba(20,20,20,.85);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.characters {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.characters ul {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.characters img {
+    width: 600px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.feature {
+    background: rgba(40,40,40,.9);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+}
+</style>
 </head>
 
-<body style="background-color: #FFFFFF;">
+<body>
 
-<h1>
-    <img src="638959883704283610 (1).webp"
-         width="50"
-         alt="EncompassSMP Logo"
-         style="vertical-align: middle;">
-    EncompassSMP
-</h1>
+<div class="hero">
 
-<p>
-    A Minecraft scripted server with plenty of freedom, allowing players to create their own stories while taking part in larger server scripted events and lore.
-</p>
+    <img class="logo"
+         src="638959883704283610 (1).webp"
+         alt="EncompassSMP Logo">
 
-<h2>About</h2>
+    <h1>EncompassSMP</h1>
 
-<p>
-    EncompassSMP combines scripted storytelling with free-range survival gameplay. While the server features an overarching narrative centered around four main characters, players are free to build, explore, form alliances, create rivalries, and shape the world in their own way.
-</p>
+    <p>
+        A Minecraft scripted survival server where freedom and storytelling collide.
+        Shape your own story while taking part in epic server-wide events.
+    </p>
 
-<h2>Main Characters</h2>
-
-<div style="display: flex; align-items: flex-start; gap: 30px;">
-
-    <ul>
-        <li>FryedCheese</li>
-        <li>RogueGhost</li>
-        <li>EstellaTheEntity</li>
-        <li>Lumi_The_Ghost</li>
-    </ul>
-
-    <img src="monsterbattlearena.jpg"
-         width="430"
-         alt="EncompassSMP Fight">
+    <a class="discord-btn"
+       href="https://discord.gg/E6eVQ9sy9t"
+       target="_blank">
+       Join Discord
+    </a>
 
 </div>
 
-<h2>Features</h2>
+<div class="section">
 
-<ul>
-    <li>Scripted lore and story events</li>
-    <li>Player-driven adventures</li>
-    <li>Survival gameplay</li>
-    <li>Community events</li>
-    <li>Freedom to build and explore</li>
-    <li>Custom server content</li>
-</ul>
+    <div class="card">
+        <h2>About</h2>
 
-<h2>Join the Story</h2>
+        <p>
+            EncompassSMP combines scripted storytelling with free-range survival gameplay.
+            While the server follows an overarching narrative centered around four key
+            characters, players are free to build, explore, form alliances, create rivalries,
+            and shape the world in their own way.
+        </p>
+    </div>
 
-<p>
-    <a href="https://discord.gg/E6eVQ9sy9t" target="_blank">
-        Join our Discord
+    <div class="card">
+
+        <h2>Main Characters</h2>
+
+        <div class="characters">
+
+            <ul>
+                <li>FryedCheese</li>
+                <li>RogueGhost</li>
+                <li>EstellaTheEntity</li>
+                <li>Lumi_The_Ghost</li>
+            </ul>
+
+            <img src="monsterbattlearena.jpg"
+                 alt="Arena">
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Features</h2>
+
+        <div class="features">
+
+            <div class="feature">
+                <h3>Scripted Lore</h3>
+                <p>Story-driven events and server lore.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Survival</h3>
+                <p>Freedom to build, explore and thrive.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Community Events</h3>
+                <p>Large-scale events for everyone.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Player Stories</h3>
+                <p>Create your own adventures and rivalries.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <a class="discord-btn"
+       href="https://discord.gg/E6eVQ9sy9t"
+       target="_blank">
+       Join The Story
     </a>
-</p>
+</footer>
 
 </body>
 </html>
