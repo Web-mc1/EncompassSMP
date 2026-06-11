@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     color: white;
@@ -39,10 +43,10 @@ body {
 }
 
 .hero p {
-    max-width: 700px;
+    max-width: 800px;
     margin: 20px auto;
     font-size: 1.2rem;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .discord-btn {
@@ -73,6 +77,11 @@ body {
     border-radius: 15px;
     margin-bottom: 30px;
     backdrop-filter: blur(5px);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card h2 {
@@ -104,12 +113,13 @@ body {
 }
 
 .gallery img {
-    width: 280px;
+    width: 320px;
     height: auto;
     border-radius: 12px;
     transition: 0.3s;
     box-shadow: 0 0 15px rgba(0,0,0,.5);
 }
+
 .gallery img:hover {
     transform: scale(1.05);
 }
@@ -121,7 +131,8 @@ body {
 }
 
 .feature {
-    background: rgba(40,40,40,.9);
+    background: rgba(255,255,255,.05);
+    border: 1px solid rgba(255,255,255,.1);
     padding: 20px;
     border-radius: 12px;
     text-align: center;
@@ -133,6 +144,28 @@ body {
 
 .feature p {
     line-height: 1.5;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: rgba(255,255,255,.7);
+}
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    .characters {
+        flex-direction: column;
+    }
+
 }
 </style>
 </head>
@@ -177,6 +210,20 @@ body {
 
     <div class="card">
 
+        <h2>The Story</h2>
+
+        <p>
+            EncompassSMP is a world filled with mysteries, ancient secrets,
+            forgotten conflicts, and powerful forces hidden beneath the surface.
+            While four central characters drive the main narrative, every player
+            has the opportunity to influence the future of the world through their
+            actions, alliances, discoveries, and rivalries.
+        </p>
+
+    </div>
+
+    <div class="card">
+
         <h2>Main Characters</h2>
 
         <div class="characters">
@@ -191,7 +238,7 @@ body {
             <div class="gallery">
 
                 <img src="Screenshot_20260609_225626.png" alt="Server Screenshot">
-                
+
                 <img src="Screenshot_20260609_225547.png" alt="Server Screenshot">
 
                 <img src="Screenshot_20260609_225042.png" alt="Server Screenshot">
@@ -201,6 +248,25 @@ body {
             </div>
 
         </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Join The Server</h2>
+
+        <p>
+            Join our Discord server to stay updated on events, lore releases,
+            announcements, and future server openings.
+        </p>
+
+        <br>
+
+        <a class="discord-btn"
+           href="https://discord.gg/E6eVQ9sy9t"
+           target="_blank">
+           Join Discord
+        </a>
 
     </div>
 
@@ -244,6 +310,10 @@ body {
 
     </div>
 
+</div>
+
+<div class="footer">
+    © 2026 EncompassSMP • All Rights Reserved
 </div>
 
 </body>
